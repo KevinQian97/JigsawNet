@@ -118,7 +118,7 @@ def main():
         acc1 = validate(val_loader, model, data_list, args)
         results.append(acc1)
     print(results)
-    print("AVG ACC {}, STD {}".format(sum(results)/3),np.std(results))
+    print("AVG ACC {}, STD {}".format(sum(results)/3,np.std(results)))
     return
 
 
