@@ -1,7 +1,7 @@
 import argparse
 import time
 import os
-parser = argparse.ArgumentParser(description="PyTorch implementation of Temporal Segment Networks")
+parser = argparse.ArgumentParser(description="PyTorch implementation of JigsawNet")
 parser.add_argument('--dataset', type=str, default="KEVAL")
 parser.add_argument('--modality', type=str, choices=['RGB', 'Flow'],default="RGB")
 parser.add_argument('--train_list', type=str, default="")
