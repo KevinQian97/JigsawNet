@@ -29,6 +29,7 @@ Make sure the data structure is like:
           * trn
           * val
           * tst
+
 Meanwhile, please download the annotation folder and place them under `./datasets`
 [KineticsZSAR-TRAIN]()
 [KineticsZSAR-TEST]()
