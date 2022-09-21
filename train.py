@@ -99,7 +99,7 @@ def main():
             params = get_fine_tuning_parameters(model, args)
         else:
             params = model.parameters()
-        optimizer = torch.optim.SGD(model.parameters(),
+        optimizer = torch.optim.SGD(params,
                             args.lr,
                             momentum=args.momentum,
                             weight_decay=args.weight_decay)
